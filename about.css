@@ -1,0 +1,68 @@
+.about{
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.about__image{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about__image div{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 64px;
+    padding-right: 64px;
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about__image-brownmonk{
+    border-bottom: 8px;
+}
+
+.about__image-brownmonk img{
+    width: 225px;
+    height: 200px;
+}
+
+.about__button{
+    position: absolute;
+    right: 0;
+
+    padding: 12px 32px;
+    min-height: 64px;
+    background-color: var(--brown-color);
+    border-radius: 32px 0 0 32px;
+    border: 0;
+    outline: 0;
+
+    color: #fff;
+    font-family: var(--plus-jakarta-sans);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    cursor: pointer;
+}
+
+.about__content{
+    padding: 64px; 
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+
